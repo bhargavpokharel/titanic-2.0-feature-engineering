@@ -1,5 +1,5 @@
 
-Improved Titanic survival prediction using advanced feature engineering (Title, FamilySize, IsAlone, AgeBin, FareBin).
+
 # 🚢 Titanic 2.0: Feature Engineering Challenge
 
 Improved Titanic survival prediction using advanced feature engineering (Title, FamilySize, IsAlone, AgeBin, FareBin).
