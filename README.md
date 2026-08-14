@@ -2,6 +2,9 @@
 
 # 🚢 Titanic 2.0: Feature Engineering Challenge
 
+> **Note on Development:** I used AI-assisted tools (like Deepseek) to help structure and format parts of this project. All code was reviewed, tested, and somewhat understood by me before being committed. I plan to study it more in detail again and again to refine and hone my skills.
+
+
 Improved Titanic survival prediction using advanced feature engineering (Title, FamilySize, IsAlone, AgeBin, FareBin).
 
 ## 📖 Overview
