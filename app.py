@@ -32,7 +32,7 @@ parch = st.number_input("Number of Parents / Children aboard", min_value=0, max_
 fare = st.number_input("Fare ($)", min_value=0.0, max_value=600.0, value=50.0)
 
 # 7. Embarked
-embarked = st.selectbox("Port of Embarkation", ["S", "C", "Q"])
+embarked = st.selectbox("Port of Embarkation", ["Southampton", "Cherbourg", "Queenstown"])
 
 # ---- ENGINEERED FEATURES (The app will calculate these for you) ----
 # 8. Title (We'll let the user pick)
@@ -68,7 +68,7 @@ else:
 
 # ---- ENCODE THE INPUTS (Just like we did in the notebook) ----
 sex_map = {"male": 0, "female": 1}
-embarked_map = {"S": 0, "C": 1, "Q": 2}
+embarked_map = {"Southampton": 0, "Cherbourg": 1, "Queenstown": 2}
 title_map = {"Mr": 0, "Miss": 1, "Mrs": 2, "Master": 3, "Rare": 4}
 agebin_map = {"Child": 0, "Teen": 1, "Adult": 2, "Senior": 3, "Elder": 4}
 farebin_map = {"Low": 0, "Medium": 1, "High": 2, "Very High": 3}
